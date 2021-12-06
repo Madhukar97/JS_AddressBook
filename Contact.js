@@ -107,3 +107,8 @@ class Contact {
 
 let contact1 = new Contact('Madhukar', 'Tatiraju', 'someAddress', 'vizag', 'Andhra', '530013', '9344046505', 'madhukar@gmail.com');
 console.log(contact1);
+
+//UC-3 Ability to add contacts to address book array
+let addressbook = new Array();
+addressbook.push(contact1);
+console.log(addressbook.toString());
